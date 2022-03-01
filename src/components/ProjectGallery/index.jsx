@@ -10,26 +10,26 @@ const images = [
   {
     src:"https://i.ibb.co/jLFk5Vx/chronicler.png",
     title: "The Chronicler",
-    subtitle: "Live the Beauty",
-    category: "Shooting / Adv.Campaing"
+    subtitle: "The Modern Library Application",
+    category: "Deployed Links Here"
   },
   {
     src:"https://i.ibb.co/8jgFJW2/travelology.png",
     title: "Travelology",
-    subtitle: "Live the Beauty",
-    category: "Shooting / Adv.Campaing"
+    subtitle: "Random Travel Location Generator",
+    category: "Deployed Links here"
   },
   {
     src:"https://i.ibb.co/m9NxMjZ/notetaker.png",
     title: "Note Taker",
-    subtitle: "Live the Beauty",
-    category: "Shooting / Adv.Campaing"
+    subtitle: "An Express Note Taking Application",
+    category: "Deployed Links Here"
   },
   {
     src:"https://i.ibb.co/W6PpR1W/quiz.png",
     title: "Javascript Quiz Challenge",
-    subtitle: "Live the Beauty",
-    category: "Shooting / Adv.Campaing"
+    subtitle: "Challenge your wits with this JS quiz",
+    category: "Deployment links here"
   }
 ];
 

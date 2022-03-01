@@ -3,7 +3,7 @@ import './style.scss'
 
 export default function Header() {
   return (
-    <header>
+    <header data-scroll-section>
       <nav>
         <ul class="nav_links">
           <li><a href="#about-me">About Me</a></li>

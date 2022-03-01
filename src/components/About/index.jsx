@@ -3,7 +3,7 @@ import './style.scss'
 
 export default function About() {
   return (
-    <div class="about-me" id="about-me">
+    <div class="about-me" id="about-me" data-scroll-section>
       <div>
         <h1>About Me</h1>
         <p>
