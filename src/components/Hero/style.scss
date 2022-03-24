@@ -1,3 +1,5 @@
+@import '../../styles/breakpoints.scss';
+
 .intro-container {
   height: 80vh;
   margin: 0px auto;
@@ -12,8 +14,18 @@
 }
 
 .intro h1 {
-  font-size: clamp(40px, 8vw, 90px);
+  font-size: 90px;
   font-weight: 600;
+
+  @include media('<=desktop') {
+    font-size: 70px;
+  }
+  @include media('<=tablet') {
+    font-size: 50px;
+  }
+  @include media('<=phone') {
+    font-size: 40px;
+  }
 }
 
 .intro h3 {

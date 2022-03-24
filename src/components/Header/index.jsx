@@ -38,7 +38,7 @@ export default function Header() {
           <li><a href='#skills'>Skills</a></li>
           <li><a href="#gallery-item">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <a class="contact" href="#"><button>Resume</button></a>
+          <a class="contact-button" href="#"><button>Resume</button></a>
         </ul>
       </nav>
     </header>
