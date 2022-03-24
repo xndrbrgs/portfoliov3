@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 
 * {
     box-sizing: border-box;
     cursor: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 :root {
@@ -31,7 +31,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: black;
+    background-color: rgb(9, 9, 9);
     z-index: 1;
   }
   

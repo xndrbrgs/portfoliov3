@@ -1,0 +1,37 @@
+.leftside-icons {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: rgb(228, 228, 228);
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+#icon-size {
+    font-size: 30px;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#icon-size::after {
+    content: "";
+    display: block;
+    height: 70px;
+}
+
+#icon-size:hover {
+   color: rgb(228, 228, 228, 0.6);
+   transform: translate(0, -10px);
+}

@@ -2,21 +2,22 @@
   height: 80vh;
   margin: 0px auto;
   max-width: 1000px;
+  padding: 0 5vw;
 }
 
 .intro {
-  padding: 10% 0;
+  padding: 16% 0 0 0;
   color: rgb(228, 228, 228);
   font-weight: 500;
 }
 
 .intro h1 {
-  font-size: 90px;
+  font-size: clamp(40px, 8vw, 90px);
   font-weight: 600;
 }
 
 .intro h3 {
-  font-size: 25px;
+  font-size: clamp(20px, 5vw, 25px);
 }
 
 .name-intro {
@@ -25,4 +26,12 @@
 
 .name-intro-desc {
   color: rgb(228, 228, 228);
+}
+
+.lineChildren {
+  transform: translate(0, 500px);
+}
+
+.lineParent {
+  overflow: hidden;
 }

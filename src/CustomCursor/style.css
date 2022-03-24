@@ -1,12 +1,13 @@
 .app-cursor {
     z-index: 1000;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border: 1px solid white;
     pointer-events: none;
     overflow: hidden;
     transform: translate3d(0,0,0);
     position: fixed;
-    background-color: transparent;
+    background-color: white;
+    mix-blend-mode: difference;
 }

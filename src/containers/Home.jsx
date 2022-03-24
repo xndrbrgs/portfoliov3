@@ -11,6 +11,8 @@ import About from '../components/About'
 import ProjectGallery from '../components/ProjectGallery'
 import Skills from '../components/Skills'
 import Footer from '../components/Footer'
+import Contact from '../components/Contact'
+// import SideBar from '../components/SideBar'
 
 import useLocoScroll from "../hooks/useLocoScroll";
 
@@ -29,7 +31,7 @@ const Home = () => {
     }
   }, [preloader]);
 
-  const [timer, setTimer] = React.useState(3);
+  const [timer, setTimer] = React.useState(0);
 
   const id = React.useRef(null);
 
@@ -60,7 +62,7 @@ const Home = () => {
       <CustomCursor />
       {preloader ? (
         <div className="loader-wrapper absolute">
-          <h1>Alex Borges</h1>
+          {/* <h1>Alex Borges</h1> */}
         </div>
       ) : (
         <div
@@ -74,7 +76,8 @@ const Home = () => {
           <About />
           <ProjectGallery />
           <Skills />
-
+          <Contact />
+          <Footer />
         </div>
       )}
     </>
