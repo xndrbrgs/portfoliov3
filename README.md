@@ -2,7 +2,7 @@
 
   ## Description
 
-  This is the most recent version of my personal portfolio. It is entirely done in React and is constantly evolving. 
+  This is the third version of my personal portfolio. It is entirely done in React and is constantly evolving. 
   
   <div align="center">
   <img src="https://i.ibb.co/7yrbq59/Capture.png" alt="Capture" border="0">
